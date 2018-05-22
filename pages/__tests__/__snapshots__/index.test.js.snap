@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Snapshot Testing Renders Index Page correctly 1`] = `
+<div>
+  <h1>
+    Index Page
+  </h1>
+</div>
+`;
