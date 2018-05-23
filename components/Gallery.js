@@ -2,24 +2,21 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import Thumbnail from './Thumbnail';
 
-const Gallery = ({
-  title, images,
-}) => {
+const Gallery = ({ alt, images }) => {
   const imagesList = images.map(value => (
-    <Thumbnail uri={value} alt={title} key={value} />
+    <Thumbnail uri={value} alt={alt} key={value} />
   ));
   return (
-    <div>
-      <h1>{title}</h1>
+    <section>
       <div>
         {imagesList}
       </div>
-    </div>
+    </section>
   );
 };
 
 Gallery.propTypes = {
-  title: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 

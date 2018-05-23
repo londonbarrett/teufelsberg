@@ -2,12 +2,18 @@
 
 exports[`Index Snapshot Testing Renders Index Page Correctly 1`] = `
 <section>
-  <div>
-    <h1>
+  <header
+    className="header"
+  >
+    <h1
+      className="title"
+    >
       
     </h1>
+  </header>
+  <section>
     <div />
-  </div>
+  </section>
   <section>
     <h1>
       

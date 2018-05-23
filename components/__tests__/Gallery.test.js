@@ -14,7 +14,7 @@ describe('Gallery Tests', () => {
     ];
     const component = renderer.create((
       <Gallery
-        title="Image Gallery"
+        alt="car image"
         images={images}
       />
     ));
