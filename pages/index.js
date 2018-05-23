@@ -2,6 +2,7 @@ import * as React from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 import { withRouter } from 'next/router';
+import Header from '../components/Header';
 import Gallery from '../components/Gallery';
 import Modal from '../components/Modal';
 import Picture from '../components/Picture';
@@ -28,10 +29,8 @@ class Index extends React.Component {
     const { images, title, router } = this.props;
     return (
       <section>
-        <Gallery
-          title={title}
-          images={images}
-        />
+        <Header title={title} />
+        <Gallery images={images} alt={title} />
         { router.query.photoId &&
           <Modal title={title}>
             <Picture uri={router.query.photoId} alt={title} />

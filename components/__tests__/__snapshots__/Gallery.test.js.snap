@@ -1,17 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gallery Tests Renders correctly 1`] = `
-<div>
-  <h1>
-    Image Gallery
-  </h1>
+<section>
   <div>
     <a
       href="/photo?id=image_01"
       onClick={[Function]}
     >
       <img
-        alt="Image Gallery"
+        alt="car image"
         src="https://image_01_2.jpg"
       />
     </a>
@@ -20,7 +17,7 @@ exports[`Gallery Tests Renders correctly 1`] = `
       onClick={[Function]}
     >
       <img
-        alt="Image Gallery"
+        alt="car image"
         src="https://image_02_2.jpg"
       />
     </a>
@@ -29,7 +26,7 @@ exports[`Gallery Tests Renders correctly 1`] = `
       onClick={[Function]}
     >
       <img
-        alt="Image Gallery"
+        alt="car image"
         src="https://image_03_2.jpg"
       />
     </a>
@@ -38,10 +35,10 @@ exports[`Gallery Tests Renders correctly 1`] = `
       onClick={[Function]}
     >
       <img
-        alt="Image Gallery"
+        alt="car image"
         src="https://image_04_2.jpg"
       />
     </a>
   </div>
-</div>
+</section>
 `;
