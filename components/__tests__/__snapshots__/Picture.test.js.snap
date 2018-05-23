@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Picture Tests Renders correctly 1`] = `
+<img
+  alt="Mobile.de"
+  src="https://picture_01_27.jpg"
+/>
+`;

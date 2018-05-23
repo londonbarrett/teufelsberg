@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thumbnail Tests Renders correctly 1`] = `
+<a
+  href="/photo?id=image_uri"
+  onClick={[Function]}
+>
+  <img
+    alt="alternative text"
+    src="https://image_uri_2.jpg"
+  />
+</a>
+`;

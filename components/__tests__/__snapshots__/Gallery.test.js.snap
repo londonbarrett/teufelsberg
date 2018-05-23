@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery Tests Renders correctly 1`] = `
+<div>
+  <h1>
+    Image Gallery
+  </h1>
+  <div>
+    <a
+      href="/photo?id=image_01"
+      onClick={[Function]}
+    >
+      <img
+        alt="Image Gallery"
+        src="https://image_01_2.jpg"
+      />
+    </a>
+    <a
+      href="/photo?id=image_02"
+      onClick={[Function]}
+    >
+      <img
+        alt="Image Gallery"
+        src="https://image_02_2.jpg"
+      />
+    </a>
+    <a
+      href="/photo?id=image_03"
+      onClick={[Function]}
+    >
+      <img
+        alt="Image Gallery"
+        src="https://image_03_2.jpg"
+      />
+    </a>
+    <a
+      href="/photo?id=image_04"
+      onClick={[Function]}
+    >
+      <img
+        alt="Image Gallery"
+        src="https://image_04_2.jpg"
+      />
+    </a>
+  </div>
+</div>
+`;
