@@ -7,10 +7,18 @@ const Gallery = ({ alt, images }) => {
     <Thumbnail uri={value} alt={alt} key={value} />
   ));
   return (
-    <section>
-      <div>
-        {imagesList}
-      </div>
+    <section className="container">
+      {imagesList}
+      <style jsx>
+        {`
+          .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1rem;
+          }
+        `}
+      </style>
     </section>
   );
 };

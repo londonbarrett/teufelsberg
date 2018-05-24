@@ -2,10 +2,10 @@
 
 exports[`Header Tests Renders correctly 1`] = `
 <header
-  className="header"
+  className="jsx-56047622 header"
 >
   <h1
-    className="title"
+    className="jsx-56047622 title"
   >
     Header title
   </h1>

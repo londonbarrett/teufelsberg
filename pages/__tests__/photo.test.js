@@ -6,7 +6,7 @@ import Photo from '../photo.js';
 
 describe('Photo Page Snapshot Testing', () => {
   it('Renders Photo Page correctly', () => {
-    const component = renderer.create(<Photo router={{ query: { id: 'image_01' } }} />);
+    const component = renderer.create(<Photo router={{ query: { id: 'image_01', title: 'Photo Title' } }} />);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

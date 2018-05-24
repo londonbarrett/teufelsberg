@@ -28,15 +28,24 @@ class Index extends React.Component {
   render() {
     const { images, title, router } = this.props;
     return (
-      <section>
-        <Header title={title} />
-        <Gallery images={images} alt={title} />
-        { router.query.photoId &&
-          <Modal title={title}>
-            <Picture uri={router.query.photoId} alt={title} />
-          </Modal>
-        }
-      </section>
+      <main>
+        <article>
+          <Header title={title} />
+          <Gallery images={images} alt={title} />
+          { router.query.photoId &&
+            <Modal title={title}>
+              <Picture uri={router.query.photoId} alt={title} />
+            </Modal>
+          }
+        </article>
+        <style jsx global>
+          {`
+            body {
+              margin: 0;
+            }
+          `}
+        </style>
+      </main>
     );
   }
 }

@@ -1,35 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Index Snapshot Testing Renders Index Page Correctly 1`] = `
-<section>
-  <header
-    className="header"
+<main
+  className="jsx-3844205166"
+>
+  <article
+    className="jsx-3844205166"
   >
-    <h1
-      className="title"
+    <header
+      className="jsx-56047622 header"
     >
-      
-    </h1>
-  </header>
-  <section>
-    <div />
-  </section>
-  <section>
-    <h1>
-      
-    </h1>
-    <a
-      href="/"
-      onClick={[Function]}
+      <h1
+        className="jsx-56047622 title"
+      >
+        
+      </h1>
+    </header>
+    <section
+      className="jsx-1845042281 container"
+    />
+    <section
+      className="jsx-1346030082 container"
     >
-      X
-    </a>
-    <div>
-      <img
-        alt=""
-        src="https://image_01_27.jpg"
-      />
-    </div>
-  </section>
-</section>
+      <div
+        className="jsx-1346030082 header"
+      >
+        <span
+          className="jsx-1346030082 title"
+        >
+          
+        </span>
+        <a
+          className="jsx-348398248 link"
+          href="/"
+          onClick={[Function]}
+        >
+          X
+        </a>
+      </div>
+      <div
+        className="jsx-1346030082 content"
+      >
+        <div
+          className="jsx-4014059616"
+        >
+          <img
+            alt=""
+            className="jsx-4014059616 image"
+            src="https://image_01_27.jpg"
+          />
+        </div>
+      </div>
+    </section>
+  </article>
+</main>
 `;

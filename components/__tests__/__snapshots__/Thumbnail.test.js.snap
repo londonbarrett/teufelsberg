@@ -2,11 +2,13 @@
 
 exports[`Thumbnail Tests Renders correctly 1`] = `
 <a
-  href="/photo?id=image_uri"
+  className="jsx-706898208 link"
+  href="/photo?id=image_uri&title=alternative text"
   onClick={[Function]}
 >
   <img
     alt="alternative text"
+    className="jsx-706898208"
     src="https://image_uri_2.jpg"
   />
 </a>

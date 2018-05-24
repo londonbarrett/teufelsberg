@@ -2,6 +2,7 @@
 
 exports[`CloseButton Tests Renders correctly 1`] = `
 <a
+  className="jsx-348398248 link"
   href="/"
   onClick={[Function]}
 >

@@ -1,8 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Picture Tests Renders correctly 1`] = `
-<img
-  alt="Mobile.de"
-  src="https://picture_01_27.jpg"
-/>
+<div
+  className="jsx-4014059616"
+>
+  <img
+    alt="Mobile.de"
+    className="jsx-4014059616 image"
+    src="https://picture_01_27.jpg"
+  />
+</div>
 `;

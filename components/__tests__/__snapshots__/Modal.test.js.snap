@@ -1,17 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Modal Tests Renders correctly 1`] = `
-<section>
-  <h1>
-    Modal Title
-  </h1>
-  <a
-    href="/"
-    onClick={[Function]}
+<section
+  className="jsx-1346030082 container"
+>
+  <div
+    className="jsx-1346030082 header"
   >
-    X
-  </a>
-  <div>
+    <span
+      className="jsx-1346030082 title"
+    >
+      Modal Title
+    </span>
+    <a
+      className="jsx-348398248 link"
+      href="/"
+      onClick={[Function]}
+    >
+      X
+    </a>
+  </div>
+  <div
+    className="jsx-1346030082 content"
+  >
     <p>
       Modal content
     </p>

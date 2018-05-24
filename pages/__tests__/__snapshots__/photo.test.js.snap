@@ -1,16 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Photo Page Snapshot Testing Renders Photo Page correctly 1`] = `
-<div>
-  <a
-    href="/"
-    onClick={[Function]}
+<main
+  className="jsx-2792774720"
+>
+  <article
+    className="jsx-2792774720"
   >
-    X
-  </a>
-  <img
-    alt="Mobile.de"
-    src="https://image_01_27.jpg"
-  />
-</div>
+    <section
+      className="jsx-1346030082 container"
+    >
+      <div
+        className="jsx-1346030082 header"
+      >
+        <span
+          className="jsx-1346030082 title"
+        >
+          Photo Title
+        </span>
+        <a
+          className="jsx-348398248 link"
+          href="/"
+          onClick={[Function]}
+        >
+          X
+        </a>
+      </div>
+      <div
+        className="jsx-1346030082 content"
+      >
+        <div
+          className="jsx-4014059616"
+        >
+          <img
+            alt="Photo Title"
+            className="jsx-4014059616 image"
+            src="https://image_01_27.jpg"
+          />
+        </div>
+      </div>
+    </section>
+  </article>
+</main>
 `;

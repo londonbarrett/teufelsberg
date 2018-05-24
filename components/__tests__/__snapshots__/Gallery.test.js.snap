@@ -1,44 +1,52 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gallery Tests Renders correctly 1`] = `
-<section>
-  <div>
-    <a
-      href="/photo?id=image_01"
-      onClick={[Function]}
-    >
-      <img
-        alt="car image"
-        src="https://image_01_2.jpg"
-      />
-    </a>
-    <a
-      href="/photo?id=image_02"
-      onClick={[Function]}
-    >
-      <img
-        alt="car image"
-        src="https://image_02_2.jpg"
-      />
-    </a>
-    <a
-      href="/photo?id=image_03"
-      onClick={[Function]}
-    >
-      <img
-        alt="car image"
-        src="https://image_03_2.jpg"
-      />
-    </a>
-    <a
-      href="/photo?id=image_04"
-      onClick={[Function]}
-    >
-      <img
-        alt="car image"
-        src="https://image_04_2.jpg"
-      />
-    </a>
-  </div>
+<section
+  className="jsx-1845042281 container"
+>
+  <a
+    className="jsx-706898208 link"
+    href="/photo?id=image_01&title=car image"
+    onClick={[Function]}
+  >
+    <img
+      alt="car image"
+      className="jsx-706898208"
+      src="https://image_01_2.jpg"
+    />
+  </a>
+  <a
+    className="jsx-706898208 link"
+    href="/photo?id=image_02&title=car image"
+    onClick={[Function]}
+  >
+    <img
+      alt="car image"
+      className="jsx-706898208"
+      src="https://image_02_2.jpg"
+    />
+  </a>
+  <a
+    className="jsx-706898208 link"
+    href="/photo?id=image_03&title=car image"
+    onClick={[Function]}
+  >
+    <img
+      alt="car image"
+      className="jsx-706898208"
+      src="https://image_03_2.jpg"
+    />
+  </a>
+  <a
+    className="jsx-706898208 link"
+    href="/photo?id=image_04&title=car image"
+    onClick={[Function]}
+  >
+    <img
+      alt="car image"
+      className="jsx-706898208"
+      src="https://image_04_2.jpg"
+    />
+  </a>
 </section>
 `;

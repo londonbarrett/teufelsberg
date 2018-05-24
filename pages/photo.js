@@ -1,14 +1,24 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'next/router';
+import Modal from '../components/Modal';
 import Picture from '../components/Picture';
-import CloseButton from '../components/CloseButton';
 
 const Photo = ({ router }) => (
-  <div>
-    <CloseButton />
-    <Picture uri={router.query.id} />
-  </div>
+  <main>
+    <article>
+      <Modal title={router.query.title}>
+        <Picture uri={router.query.id} alt={router.query.title} />
+      </Modal>
+    </article>
+    <style jsx global>
+      {`
+        body {
+          margin: 0;
+        }
+      `}
+    </style>
+  </main>
 );
 
 Photo.propTypes = {

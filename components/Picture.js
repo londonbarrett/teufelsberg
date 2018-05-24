@@ -3,7 +3,23 @@ import PropTypes from 'prop-types';
 import config from '../config';
 
 const Picture = ({ uri, alt }) => (
-  <img src={`${config.imagePrefix}${uri}${config.bigSuffix}`} alt={alt} />
+  <div>
+    <img
+      className="image"
+      src={`${config.imagePrefix}${uri}${config.bigSuffix}`}
+      alt={alt}
+    />
+    <style jsx>
+      {`
+        .container {
+          width: 100%;
+        }
+        .image {
+          width: 100%;
+        }
+      `}
+    </style>
+  </div>
 );
 
 Picture.propTypes = {
