@@ -19,11 +19,15 @@ class Index extends React.Component {
     title: '',
   };
   static async getInitialProps() {
-    const req = await axios.get(config.endpoint);
-    return {
-      images: Array.from(new Set(req.data.images.map(value => value.uri))),
-      title: req.data.title,
-    };
+    try {
+      const req = await axios.get(config.endpoint);
+      return {
+        images: Array.from(new Set(req.data.images.map(value => value.uri))),
+        title: req.data.title,
+      };
+    } catch (error) {
+      throw error;
+    }
   }
   render() {
     const { images, title, router } = this.props;
@@ -49,6 +53,5 @@ class Index extends React.Component {
     );
   }
 }
-
 
 export default withRouter(Index);
